@@ -22,6 +22,7 @@ Connect the rplidar A1 to one of the USB ports on the Max Carrier.
 Open 2 ssh remote connections to your Portenta x8 and do the following:
 
 - ***1st terminal***
+
     You need to start the docker:<br>
     `docker run -it --device=/dev/ttyUSB0 --net=host gbr1/rplidar_foxy:latest`<br>
     inside the docker type the following:<br>
@@ -33,6 +34,7 @@ Open 2 ssh remote connections to your Portenta x8 and do the following:
     this will restart the motor of the lidar and start rplidar ros node
 
 - ***2nd terminal***
+
     In the second terminal you need to access to a new docker bash. Bring the name of your docker by:<br>
     `docker ps -a` <br>
     >*Note: mine, for example is cranky_blackwell*<br>
