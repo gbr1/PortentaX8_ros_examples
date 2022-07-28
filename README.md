@@ -6,4 +6,5 @@ This repo contains some examples of Portenta x8 usage with ROS2
   
 <br>
 <br>
+
 ***Copyrights © 2022 G. Bruno - gbr1.github.io***
