@@ -1,5 +1,7 @@
+Simple environment to get ROS2 working with shared workspace
+
 ```bash
-docker run -v $HOME/dev_ws/src:/opt/dev_ws/src --net:host -it bash
+docker run -v $HOME/dev_ws/src:/opt/dev_ws/src --net=host -it bash
 ```
 
 for a new terminal:
