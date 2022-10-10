@@ -9,7 +9,6 @@ RUN apt-get update -y && \
     rm -rf /var/lib/apt/lists/*
 
 RUN . /opt/ros/foxy/setup.sh && \
-    . /opt/ros/foxy/install/setup.sh && \
     cd /opt/dev_ws && \
     colcon build --symlink-install && \
     . /opt/ros/foxy/setup.sh && \
